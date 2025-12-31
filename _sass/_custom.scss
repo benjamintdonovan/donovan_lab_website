@@ -1,0 +1,90 @@
+/* _sass/_custom.scss */
+/* Constrain the hero video to the text column */
+.page__content .hero-video {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 760px !important;     /* ≈ text column width; tweak 680–820px as you like */
+  margin: 0 auto 1rem;  /* center */
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.page__content .hero-video video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;         /* keep natural aspect */
+  object-fit: cover;    /* only crops if you later fix the height */
+}
+
+.hero-video .overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem 1.25rem;
+  background: linear-gradient(to top, rgba(0,0,0,.35), rgba(0,0,0,0));
+  color: var(--global-text-color, #fff);
+}
+.hero-video .overlay h1,
+.hero-video .overlay p { margin: 0; }
+
+
+.research-video video {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.research-video figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+/* Stronger override for research nav buttons */
+.research-nav a.btn {
+  text-transform: none !important;   /* force lowercase/capitalization as typed */
+  letter-spacing: normal !important; /* tighten spacing so it looks balanced */
+  font-size: 1.75rem;                 /* optional: bigger text */
+  font-weight: 300;                   /* optional: heavier weight */
+  text-align: center;                 /* center text inside button */
+  white-space: normal;                /* allow wrapping if needed */
+  box-shadow: none !important;   /* removes drop shadow */
+  border: normal !important;  
+  background: #e7e7e6 !important;  
+}
+
+
+.research-nav {
+  justify-content: center; /* already set in your inline styles */
+  gap: 20px;               /* a bit more breathing room */
+}
+
+.research-nav .btn {
+  padding: 1rem 2rem; /* taller buttons */
+  border-radius: 6px; /* soften corners */
+}
+
+/* Research landing page nav */
+.research-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 1rem 0 2rem;
+}
+
+.page__content .research-nav a.btn {
+  text-transform: none !important;   /* kill UPPERCASE */
+  letter-spacing: normal !important; /* remove spaced-out look */
+  font-size: 1.25rem;                /* larger text */
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  text-align: center;
+  white-space: normal;
+}
+
