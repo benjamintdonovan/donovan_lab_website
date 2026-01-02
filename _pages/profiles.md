@@ -14,6 +14,11 @@ profiles:
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
-
+  
+  - align: right
+    image: /people/bixuan.jpg
+    content: about_bixuan.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
       
 ---

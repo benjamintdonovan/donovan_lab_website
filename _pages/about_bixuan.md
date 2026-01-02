@@ -1,0 +1,3 @@
+<p class="profile-text">
+<strong> Bixuan Wang, Ph.D. </strong> is a postdoctoral researcher in the Donovan Lab at UCR. She earned her PhD in Computational Biology from the University of Maryland, College Park, where she investigated RNA splicing sequence features using machine learning and statistical modeling under the supervision of Dr. Steve Mount and Dr. Dan Larson. Following her doctoral work, she conducted research on splicing prediction algorithms and RNA splicing evolution in the Burge Lab at MIT. Her current research focuses on RNA splicing regulation, with particular emphasis on cryptic splicing isoforms and their role in human disease.
+</p>

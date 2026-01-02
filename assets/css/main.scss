@@ -24,4 +24,30 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-@import "custom";
+.hero-media {
+  width: 100%;
+}
+
+.hero-inner {
+  width: 100%;
+  max-width: $max-content-width;  // aligns with the site content column
+  margin: 0 auto;
+}
+
+.hero-inner video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-lede {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin: 0.75rem 0 0 0;  // important: remove default left/right margins
+}
+
+
+.profile-text {
+  text-align: justify;
+  text-justify: inter-word;
+}

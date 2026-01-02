@@ -20,23 +20,26 @@ latest_posts:
 ---
 
 <div class="hero-media">
-  <video
-    src="{{ '/assets/video/output3.mp4' | relative_url }}"
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="auto"
-    aria-label="Banner video of lab theme"
-  ></video>
+  <div class="hero-inner">
+    <video
+      src="{{ '/assets/video/output3.mp4' | relative_url }}"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+      aria-label="Banner video of lab theme"
+    ></video>
 
-  <p class="hero-lede">
-    We study the <strong>kinetic regulation of pre-mRNA splicing</strong> using single-molecule imaging,
-    biophysical modeling, and genomics.
-  </p>
+    <p class="hero-lede">
+      We study the <strong>kinetic regulation of pre-mRNA splicing</strong> using single-molecule imaging,
+      biophysical modeling, and genomics.
+    </p>
+  </div>
 </div>
 
+<br>
 ## Open positions
-We are actively recruiting postdoctoal fellows and graduate students!  
+We are actively recruiting postdoctoral fellows and graduate students!  
 Contact: [benjamin.donovan@ucr.edu](mailto:benjamin.donovan@ucr.edu)
 

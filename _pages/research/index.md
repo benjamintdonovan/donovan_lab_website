@@ -27,7 +27,7 @@ We study how dynamic protein–RNA and protein–protein interactions contribute
 <br>
 ## 1) Gene Regulation via RNA Processing
 <p style="text-align: justify;">
-Gene expression describes how genetic information stored in DNA is used to create proteins, which carry out most cellular functions. However, among all domains of life (from bacteria to humans), a protein is not made directly from DNA. Instead, proteins are translated from an RNA template, a short-lived transcript of the DNA sequence, which is subject to extensive regulation. For example, human RNAs contain long stretches of sequences that must be removed ('spliced out') before being translated into a protein. In this way, RNA splicing has considerable potential for regulation.
+Gene expression describes how genetic information stored in DNA is used to create proteins, which carry out most cellular functions. However, among all domains of life (from bacteria to eukaryotes), a protein is not made directly from DNA. Instead, proteins are translated from an RNA template, a short-lived transcript of the DNA sequence, which is subject to extensive regulation. For example, human RNAs contain long stretches of sequences that must be removed ('spliced out') before being translated into a protein. 
 </p>
 
 <div style="text-align: center;">
@@ -50,5 +50,5 @@ While there are many protein complexes that act on RNA to regulate its function,
 
 ## 3) Open Questions
 <p style="text-align: justify;">
-Due to its numerous components, the spliceosome has been challenging to study. Despite over 40 years of work, the spliceosome has never been reconstituted from purified proteins. Furthermore, even in extracts, splicing is very slow and correct splicing of introns longer than a few kilobases has not been achieved. Our lab will dissect the <strong>temporal regulation of splicing in live cells</strong> by combining imaging-based approaches with classical biochemistry and sequencing assays. The unifying motivation is that gene expression is fundamentally regulated by poorly understood kinetic processes. By emphasizing kinetic measurements, we aim to reveal mechanisms and new angles for therapeutic intervention.
+Due to its numerous components, the spliceosome has been challenging to study. Despite over 40 years of work, the spliceosome has never been reconstituted from purified proteins. Furthermore, even in extracts, splicing is very slow and correct splicing of introns longer than a few kilobases has not been achieved. Our lab will dissect the <strong>temporal regulation of splicing in live cells</strong> by combining imaging-based approaches with classical biochemistry and sequencing assays. The unifying motivation is that gene expression is fundamentally regulated by poorly understood kinetic processes. By emphasizing kinetic measurements, we aim to uncover new insight into fundamental splicing mechanisms and potentially offer new angles for therapeutic interventions in diseases driven by splicing defects.
 </p>
